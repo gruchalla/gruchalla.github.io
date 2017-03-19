@@ -1,0 +1,50 @@
+---
+layout: default
+title: Home
+---
+
+<h1>Notable Video</h1>
+{% assign items = site.videos | sort: 'order' %}
+{% for video in items reversed %}
+	<div class="paper">
+        <div class="thumb">
+        <a href={{video.link}}><img class="thumbnail" src={{video.image}} alt={{video.image_text}} height="133" width="240"></a>
+        </div>
+        <div class="content">
+          <div class="title">  {{ video.title }} </div>
+          <div class="bib"> {{ video.authors }}. <cite>{{ video.journal }},</cite> {{ video.pubdate }}. </div>
+          {% if video.award %} <div class="award"> *{{ video.award }}* </div> {% endif %}
+          <div class="links">
+            {% for link in video.links %}
+               <a href={{link.path}}>{{link.title}}</a>
+            {% endfor %}
+          </div>
+          <div class="abstract">
+             {{ video.content }}
+          </div>
+	</div>
+{% endfor %}
+<br>
+
+<h1>Publications</h1>
+{% assign items = site.papers | sort: 'order' %}
+{% for paper in items reversed %}
+	<div class="paper">
+        <div class="thumb">
+         <img class="thumbnail" src={{paper.image}} alt={{paper.image_text}} height="133" width="240">
+        </div>
+        <div class="content">
+          <div class="title">  {{ paper.title }} </div>
+          <div class="bib"> {{ paper.authors }}. <cite>{{ paper.journal }},</cite> {{ paper.pubdate }}. </div>
+          {% if paper.award %} <div class="award"> *{{ paper.award }}* </div> {% endif %}
+          <div class="links">
+            {% for link in paper.links %}
+               <a href={{link.path}}>{{link.title}}</a>
+            {% endfor %}
+          </div>
+          <div class="abstract">
+             {{ paper.content }}
+          </div>
+	</div>
+{% endfor %}
+<hr width=100%>

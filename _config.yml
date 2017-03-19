@@ -1,0 +1,27 @@
+# Site Settings
+title:               Kenny Gruchalla, Ph.D.
+tagline:             
+description:         "I'm primarily interested in developing interactive scientific visualization techniques that provide tools for finding meaning in increasingly large and complex data. My research interests include: scientific visualization, immersive visualization, high-performance scientific computing, GPU computing, topology-based feature extraction, human-computer interaction, and physics-based modeling."
+baseurl:            #""
+url:                #""
+github:
+  url:               ""
+author:
+  name:              "Kenny Gruchalla"
+  email:             "gruchalla@gmail.com"
+  twitter:           "GruchallaKenny"
+  github:            "gruchalla"
+  facebook:          "gruchall"
+  linkedin:          "kennygruchalla"
+  researchgate:      "Kenny_Gruchalla"
+paginate:            5
+
+collections:
+- papers
+- videos
+
+# Build settings
+markdown:            kramdown
+highlighter:         rouge
+permalink:           none
+gems:                [jekyll-paginate]
