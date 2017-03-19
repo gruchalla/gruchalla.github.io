@@ -5,7 +5,7 @@ description:         "I'm primarily interested in developing interactive scienti
 baseurl:            #""
 url:                #""
 github:
-  url:               ""
+  url:               "https://gruchalla.github.io"
 author:
   name:              "Kenny Gruchalla"
   email:             "gruchalla@gmail.com"
