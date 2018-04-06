@@ -1,7 +1,7 @@
 ---
 layout: paper
 title: Visualization of the Eastern Renewable Generation Integration Study
-authors: K. Gruchalla, J. Novacheck, A. Bloom.
+authors: K. Gruchalla, J. Novacheck, A. Bloom
 journal: SuperComputing 2016 (SC16)
 pubdate: November 2016
 order: 2016-11.2
