@@ -157,7 +157,7 @@
 
              var ticker = pi.substring((idx<ticker_width) ? 0 : idx-ticker_width, idx+1);
              context.fillStyle = 'white';
-             //context.fillText(ticker, Math.max(5,window.innerWidth-idx*context.measureText("0").width), window.innerHeight-5);
+             context.fillText(ticker, Math.max(5,window.innerWidth-idx*context.measureText("0").width), window.innerHeight-5);
 
              idx = (idx + 1) % ndigits;
              window.requestAnimationFrame(draw);
