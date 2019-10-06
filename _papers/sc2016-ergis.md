@@ -8,7 +8,7 @@ order: 2016-11.2
 image: /images/insight_11-24-14-25-white.png
 image_text: ERGIS Insight
 links:
- - path: "http://www.gruchalla.org/papers/ergis_sc16.pdf"
+ - path: "https://www.researchgate.net/publication/336250868_Visualization_of_the_Eastern_Renewable_Generation_Integration_Study"
    title: paper
  - path: "https://youtu.be/MnjScvNvPxs"
    title: video
@@ -16,7 +16,7 @@ links:
    title: website
  - path: "https://github.com/NREL/kaleidoscope"
    title: code
- - path: "http://www.gruchalla.org/papers/ergis_sc16.bib"
+ - path: "bib/ergis_sc16.bib"
    title: bibtex
 ---
 

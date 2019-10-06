@@ -8,9 +8,9 @@ pubdate: June 2018
 image: /images/streamlines.png
 image_text: Streamlines representing transmission power flow across the Eastern Interconnect 
 links:
- - path: "http://www.gruchalla.org/papers/molnar_2018.pdf"
+ - path: "https://www.researchgate.net/publication/331556322_Visualizing_Electrical_Power_Systems_as_Flow_Fields"
    title: preprint                                                          
- - path: "http://www.gruchalla.org/papers/molnar_2018.bib"
+ - path: "bib/molnar_2018.bib"
    title: bibtex
 ---
 We describe a method for visualizing data flows on large networks. We transform data flow on fixed networks into a vector field, which can be directly visualized using scientific flow visualization techniques. We evaluated the method on power flowing through two transmission power networks: a small, regional, IEEE test system (RTS-96) and a large national-scale system (the Eastern Interconnection). For the larger and more complex transmission system, the method illustrates features of the power flow that are not accessible when visualizing the power transmission with traditional network visualization techniques.

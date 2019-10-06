@@ -8,11 +8,11 @@ pubdate: 2009
 image: /images/dissertation_thumb.png
 image_text: Progressive Visualization-Driven Multivariate Feature Definition and Analysis
 links:
- - path: "http://www.gruchalla.org/papers/gruchalla-dissertation.pdf"
+ - path: "https://www.researchgate.net/publication/336250940_Progressive_Visualization-Driven_Multivariate_Feature_Definition_and_Analysis"
    title: dissertation
- - path: "http://www.gruchalla.org/papers/gruchalla-2009.bib"
+ - path: "bib/gruchalla-2009.bib"
    title: bibtex
- - path: "http://kenny.gruchalla.org/code.html"
+ - path: "https://www.vapor.ucar.edu"
    title: code
 ---
 One of the barriers to visualization-enabled scientiﬁc discovery is the difficulty 

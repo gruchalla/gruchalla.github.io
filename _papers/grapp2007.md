@@ -8,9 +8,9 @@ pubdate: 2007
 image: /images/pymol1_thumb.jpg
 image_text: "Porting Legacy Applications to Immersive Virtual Environments: A Case Study"
 links:
- - path: "http://www.gruchalla.org/papers/C4_111_Gruchalla.pdf"
+ - path: "https://www.researchgate.net/publication/220868925_Porting_legacy_applications_to_immersive_virtual_environments_-_a_case_study"
    title: paper
- - path: "http://www.gruchalla.org/papers/gruchalla-grapp2007.bib"
+ - path: "bib/gruchalla-grapp2007.bib"
    title: bibtex
 ---
 Immersive virtual environments are becoming increasingly common, driving the need to develop new 

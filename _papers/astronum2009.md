@@ -8,9 +8,9 @@ pubdate: 2009
 image: /images/flash_thumb.png
 image_text: "VAPOR: Visual, Statistical, and Structural Analysis of Astrophysical Flows" 
 links:
- - path: "http://www.gruchalla.org/papers/clyne_astronum2009.pdf"
+ - path: "https://www.researchgate.net/publication/253266203_VAPOR_Visual_Statistical_and_Structural_Analysis_of_Astrophysical_Flows"
    title: paper
- - path: "http://www.gruchalla.org/papers/clyne-astronum2009.bib"
+ - path: "bib/clyne-astronum2009.bib"
    title: bibtex
  - path: "http://www.vapor.ucar.edu/"
    title: code

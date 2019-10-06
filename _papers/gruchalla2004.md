@@ -8,9 +8,9 @@ pubdate: 2003
 image: /images/field_thumb.png
 image_text: "Immersive Well-Path Planning: Investigating the added value of immersion"
 links:
- - path: "http://www.gruchalla.org/papers/thesis.pdf"
+ - path: "https://www.researchgate.net/publication/336250693_IMMERSIVE_WELL_PATH_PLANNING_THE_ADDED_VALUE_OF_INTERACTIVE_IMMERSIVE_VISUALIZATION"
    title: thesis
- - path: "http://www.gruchalla.org/papers/gruchalla-thesis.bib"
+ - path: "bib/gruchalla-thesis.bib"
    title: bibtex
  - path: "https://youtu.be/NuX8oA7Rul0"
    title: video 
