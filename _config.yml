@@ -20,6 +20,7 @@ paginate:            5
 collections:
 - papers
 - videos
+- web
 
 # Build settings
 markdown:            kramdown

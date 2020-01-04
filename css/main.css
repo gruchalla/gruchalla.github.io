@@ -21,16 +21,31 @@ h1{
     border-width: 2px; border-style: outset; border-color: rgb(60,139,224);
     background: rgb(40,109,194);
     width: 99%; padding: 2px; margin-top: 16px; margin-bottom: 6px;
-    text-indent: 10px; font-weight: bold; font-size: 110%;
+    text-indent: 10px; font-weight: normal; font-size: 110%;
 }
 
 h1 a {
   text-decoration: none;
 }
 
+h2 {
+    text-indent: 0px; font-weight: bold; font-size: 130%;
+    color: black;
+}
+h2:after
+{
+  content:' ';
+  background: rgba(0, 0, 0, 0.6);
+  height: 1px;
+  width: 100%;
+  display: block;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Quattrocento Sans", sans-serif;
-  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  /*font-family: "Quattrocento Sans", sans-serif;*/
+  color: black;
 }
 
 a {
@@ -308,15 +323,16 @@ blockquote p {
 
 .menu {
     padding-top: 0px;
+    clear: left;
 }
 
 .menu-content {
-  float: center;
+  float: left;
 }
 
 .menu-content a {
   color: #999;
-  font-size: 1rem;
+  font-size: 0.8rem;
   padding-right: 10px;
 }
 
@@ -527,3 +543,5 @@ pre {
 .ai-researchgate:hover {
 	color: #0cb;
 }
+
+

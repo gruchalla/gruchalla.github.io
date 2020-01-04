@@ -1,9 +1,12 @@
 ---
 layout: default
-title: Home
+title: Research
+image: images/gruchalla_2019.png
 ---
 
-<h1>Notable Video</h1>
+{{ site.description }}
+
+<h2 id="video">Selected Video</h2>
 {% assign items = site.videos | sort: 'order' %}
 {% for video in items reversed %}
 	<div class="paper">
@@ -25,8 +28,8 @@ title: Home
 	</div>
 {% endfor %}
 <br>
-
-<h1>Publications</h1>
+<br>
+<h2 id="pubs">Publications</h2>
 {% assign items = site.papers | sort: 'order' %}
 {% for paper in items reversed %}
 	<div class="paper">

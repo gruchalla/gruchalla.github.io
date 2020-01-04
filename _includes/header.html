@@ -1,15 +1,14 @@
 <link rel="stylesheet" href="css/academicons.css"/>
 
 <header class="masthead">
-<!--  {% include menu.html %} -->
 <div class="mastheader">
   <div class="masthead-thumb">
-  <img class="thumbnail" src="images/gruchalla_narrow.jpg" alt="Kenny Gruchalla" height="187" width="112">
+  <img class="thumbnail" src={{page.image}} alt="Kenny Gruchalla" height="187" width="140">
   </div>
   <div class="masthead-content">
 <h3 class="masthead-title">
     <a href="{{ site.github.url }}/">{{ site.title }}</a>
-    <small class="masthead-subtitle">{{ site.tagline }}</small><br>
+    <!-- <small class="masthead-subtitle">{{ page.title }}</small><br> --!>
     <div class="social-icons">
     <a href="mailto:{{ site.author.email }}"><i class="fa fa-envelope" aria-hidden="true" target="_blank"></i></a>
     <a href="https://linkedin.com/in/{{ site.author.linkedin }}"><i class="fa fa-linkedin" aria-hidden="true" target="_blank"></i></a>
@@ -29,6 +28,7 @@ Golden, CO 80401-3305<br>
   <a href="{{ site.baseurl }}{% link /pdf/cv.pdf %}">Curriculum Vitae</a>
 <font size="-2"> (pdf updated 10/03/19)</font><br>
   </div>
+  {% include menu.html %} 
+  <br><br>
 </div><br>
-  {{ site.description }}
 </header>
