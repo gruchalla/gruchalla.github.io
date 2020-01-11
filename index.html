@@ -6,29 +6,6 @@ image: images/gruchalla_2019.png
 
 {{ site.description }}
 
-<h2 id="video">Selected Video</h2>
-{% assign items = site.videos | sort: 'order' %}
-{% for video in items reversed %}
-	<div class="paper">
-        <div class="thumb">
-        <a href={{video.link}}><img class="thumbnail" src={{video.image}} alt={{video.image_text}} height="133" width="240"></a>
-        </div>
-        <div class="content">
-          <div class="title">  {{ video.title }} </div>
-          <div class="bib"> {{ video.authors }}. <cite>{{ video.journal }},</cite> {{ video.pubdate }}. </div>
-          {% if video.award %} <div class="award"> *{{ video.award }}* </div> {% endif %}
-          <div class="links">
-            {% for link in video.links %}
-               <a href={{link.path}}>{{link.title}}</a>
-            {% endfor %}
-          </div>
-          <div class="abstract">
-             {{ video.content }}
-          </div>
-	</div>
-{% endfor %}
-<br>
-<br>
 <h2 id="pubs">Publications</h2>
 {% assign items = site.papers | sort: 'order' %}
 {% for paper in items reversed %}
@@ -47,6 +24,30 @@ image: images/gruchalla_2019.png
           </div>
           <div class="abstract">
              {{ paper.content }}
+          </div>
+	</div>
+{% endfor %}
+<br>
+<br>
+
+<h2 id="video">Selected Video</h2>
+{% assign items = site.videos | sort: 'order' %}
+{% for video in items reversed %}
+	<div class="paper">
+        <div class="thumb">
+        <a href={{video.link}}><img class="thumbnail" src={{video.image}} alt={{video.image_text}} height="133" width="240"></a>
+        </div>
+        <div class="content">
+          <div class="title">  {{ video.title }} </div>
+          <div class="bib"> {{ video.authors }}. <cite>{{ video.journal }},</cite> {{ video.pubdate }}. </div>
+          {% if video.award %} <div class="award"> *{{ video.award }}* </div> {% endif %}
+          <div class="links">
+            {% for link in video.links %}
+               <a href={{link.path}}>{{link.title}}</a>
+            {% endfor %}
+          </div>
+          <div class="abstract">
+             {{ video.content }}
           </div>
 	</div>
 {% endfor %}
