@@ -1,19 +1,19 @@
 name,location,id,longitude,latitude,img1,img2
 Pu'u Poa Point,Kaui HI USA,HI3,-159.4954,22.2223,kaui50_2.jpg,kaui1000_1.jpg
+Pu'u Olai,Maui HI,HI1,-156.4492,20.6361,olai50_1.jpg,olai1000_1.jpg,
+Pacific City Beach,OR USA,OR1,-123.972,45.2155,pacificcity50_1.jpg,pacificcity1000_1.jpg
+Santa Monica,CA USA,CA1,-118.5017,34.0129,santamonica50_1.jpg,santamonica1000_1.jpg
 Moab, UT USA,UT1,-109.5498,38.5733,moab50_1.jpg,moab1000_1.jpg
+Great Sand Dunes National Park,CO USA,CO1,-105.5943,37.7916,sanddunesnp50_1.jpg,sanddunesnp1000_1.jpg
 Sandbanks Provincial Park,Ontario Canada,ON1,-77.2392,43.907,sandbanks50.jpg,sandbanks1000_1.jpg
 Providenciales,Turks & Caicos,TK1,-72.2719,21.7738,provo50_1.jpg,provo1000_1.jpg
 Salt Cay,Turks & Caicos,TK2,-71.2072,21.3293,saltcay50_2.jpg,saltcay1000_1.jpg
 Bonaire,Bonarie N.A.,BN1,-68.2624,12.2019,bonaire50_2.jpg,bonaire1000_1.jpg
 Saba,Saba,SA1,-63.2327,17.6355,saba50_2.jpg,saba1000_1.jpg
 Playa de la Barceloneta,Barcelona Spain,SP1,2.1925,41.3784,barcelona50_1.jpg,barcelona1000_1.jpg
-Ko Tao,Thailand,KT1,99.8404,10.0956,,
-Santa Monica,CA USA,CA1,-118.5017,34.0129,,
-Pu'u Olai,Maui HI,HI1,-156.4492,20.6361,,
+Ko Tao,Thailand,KT1,99.8404,10.0956,kohtao50_1.jpg,kohtao1000_1.jpg
 Olowalu,Maui HI,HI2,-156.6227,20.8127,,
 Sandy Cay,B.V.I.,BV1,-64.7092,18.4363,,
 Fortescue Bay,Tasmania Australia,TA1,147.96,-43.13,,
 Cape Canaveral,FL USA,FL1,-80.6077,28.3922,,
-Great Sand Dunes National Park,CO USA,CO1,-105.5943,37.7916,,
 Del Coco Beach,Costa Rica,CR1,-85.7001,10.551,,
-Pacific City Beach,OR USA,OR1,-123.972,45.2155,,
