@@ -550,4 +550,17 @@ pre {
 	color: #0cb;
 }
 
+.ai-orcid {
+    padding: 5px;
+    padding-left: 0px;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition: .5s;
+}
+
+.ai-orcid:hover {
+	color: #a7cc46;
+}
 
