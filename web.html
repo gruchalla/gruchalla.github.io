@@ -26,7 +26,7 @@ image: images/gruchalla_2019.png
 {% endfor %}
 <br>
 <h2 id="Professional">Personal</h2>
-{% assign items = site.web | where: 'type', 'personal' %}
+{% assign items = site.web | where: 'type', 'personal' | sort : 'order' %}
 {% for page in items reversed %}
 	<div class="paper">
         <div class="thumb">
