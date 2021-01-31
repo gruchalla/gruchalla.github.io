@@ -1,9 +1,30 @@
 ---
 layout: default
-title: Web Projects
+title: Projects
 image: images/gruchalla_2019.png
 ---
 
+<h2 id="Events">Events</h2>
+{% assign items = site.web | where: 'type', 'event' | sort: 'order' %}
+{% for page in items reversed %}
+	<div class="paper">
+        <div class="thumb">
+        <a href={{page.link}}><img class="thumbnail" src={{page.image}} alt={{page.image_text}} height="133" width="240"></a>
+        </div>
+        <div class="content">
+          <div class="title">  <a href={{page.link}}>{{ page.title }}</a> </div>
+          <div class="bib"> {{ page.authors }}. - {{page.location}}. {{ page.pubdate }}. </div>
+          <div class="links">
+            {% for link in page.links %}
+               <a href={{link.path}}>{{link.title}}</a>
+            {% endfor %}
+          </div>
+          <div class="abstract">
+             {{ page.content }}
+          </div>
+	</div>
+{% endfor %}
+<br>
 <h2 id="Professional">Professional</h2>
 {% assign items = site.web | where: 'type', 'professional' | sort: 'order' %}
 {% for page in items reversed %}
@@ -25,7 +46,7 @@ image: images/gruchalla_2019.png
 	</div>
 {% endfor %}
 <br>
-<h2 id="Professional">Personal</h2>
+<h2 id="Personal">Personal</h2>
 {% assign items = site.web | where: 'type', 'personal' | sort : 'order' %}
 {% for page in items reversed %}
 	<div class="paper">

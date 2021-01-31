@@ -6,6 +6,26 @@ image: images/gruchalla_2019.png
 
 {{ site.description }}
 
+{% if site.calls %}
+<h2 id="calls">Open Calls</h2>
+{% assign items = site.calls | sort: 'order' %}
+{% for call in items reversed %}
+	<div class="paper">
+        <div class="thumb">
+         <a href={{call.link}}><img class="thumbnail" src={{call.image}} alt={{call.image_text}} height="133" width="240"></a>
+        </div>
+        <div class="content">
+          <div class="title"> <a href={{call.link}}>{{ call.title }}</a></div>
+          <div class="bib">  Submissions due: {{ call.pubdate }}. </div>
+          <div class="abstract">
+             {{ call.content }}
+          </div>
+	</div>
+{% endfor %}
+{% endif %}
+<br>
+<br>
+
 <h2 id="pubs">Publications</h2>
 {% assign items = site.papers | sort: 'order' %}
 {% for paper in items reversed %}

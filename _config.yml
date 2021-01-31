@@ -21,6 +21,7 @@ collections:
 - papers
 - videos
 - web
+- calls
 
 # Build settings
 markdown:            kramdown
