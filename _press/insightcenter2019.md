@@ -3,7 +3,7 @@ layout: paper
 title: Scientific Visualization Enables New Perspectives on Research Data
 authors: NREL Public Relations
 journal: National Renewable Energy Laboratory 
-order: 2019-1
+order: 2019-2
 pubdate: 2019
 image: /images/insightcenter_thumb.png
 image_text: Insight Center

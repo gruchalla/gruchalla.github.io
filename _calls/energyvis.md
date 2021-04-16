@@ -2,7 +2,7 @@
 layout: paper
 title: EnergyVis 2021 - Workshop on Energy Data Visualization
 order: 2021-2
-pubdate: April 30, 2021
+pubdate: April 23, 2021
 image: /images/energyvis.png
 image_text: EnergyVis 2021
 link: "https://energyvis.org"

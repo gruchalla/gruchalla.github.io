@@ -15,11 +15,12 @@ author:
   youtube:           "gruchalla"
   linkedin:          "kennygruchalla"
   researchgate:      "Kenny_Gruchalla"
-paginate:            5
+
 
 collections:
 - papers
 - videos
+- press
 - web
 - calls
 
@@ -27,4 +28,4 @@ collections:
 markdown:            kramdown
 highlighter:         rouge
 permalink:           none
-gems:                [jekyll-paginate]
+gems:
