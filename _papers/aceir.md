@@ -9,7 +9,7 @@ image: /images/aceir.png
 image_text: Classification Process
 links:
 - path: "https://asmedigitalcollection.asme.org/ebooks/book/274/chapter-abstract/26137753/Learning-and-Tracking-Ad-Hoc-Fiducial-Markers-in"
-  title: book
+  title: chapter
 - path: "bib/aceir.bib"
   title: bibtex
 ---
