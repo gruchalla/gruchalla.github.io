@@ -10,6 +10,8 @@ image_text: The emission and reflection help us better understand the relationsh
 links:
 - path: "https://dl.acm.org/doi/10.1145/3447555.3466595"
   title: paper
+- path: "https://www.researchgate.net/publication/352686356_Visualization_of_Jet_Impingement_and_Ignition_in_a_Piston-cylinder_Chamber"
+  title: preprint
 - path: "bib/energyvis2021.bib"
   title: bibtex
 ---
