@@ -5,7 +5,7 @@ authors: A. Podder, K. Gruchalla, N. Brunhart-Lupo, S. Pless, M. Sica and P. Lac
 journal: "Frontiers in Virtual Reality"
 order: 2022-02
 pubdate: in press
-image: /images/iice.png
+image: /images/IICE.png
 image_text: 
 links:
 - path: ""
