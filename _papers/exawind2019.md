@@ -1,7 +1,7 @@
 ---
 layout: paper
 title: Blade-Resolved, Single-Turbine Simulations Under Atmospheric Flow
-authors: M. Lawson, J. Melvin, S. Ananthan, K. Gruchalla, J. Rood, N. Brunhart-Lupo, M. Sprague
+authors: M. Lawson, J. Melvin, S. Ananthan, K. Gruchalla, J. Rood, M. Sprague
 journal: National Renewable Energy Laboratory. NREL/TP-5000-72760.
 order: 2019-3
 pubdate: 2019
