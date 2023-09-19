@@ -5,7 +5,7 @@ authors: G. Johnson, K. Gruchalla, M. Ingram, N. Guba, R. Cruickshank, S. Caruso
 journal: "VizSec2023"
 order: 2023-06
 pubdate: Oct 2023
-image: /images/saga_VizSec2023.jpg
+image: /images/SAGA_VizSec2023.jpg
 image_text: "State of the Houston Metro area power system assess by CATV voltage sensors, encoded for identification of sensor
 voltage outliers, sized based on variation from 4-hour average voltage, and styled with a diverging colormap based on nominal voltage.
 Cluster of anomalies located in upper middle."
