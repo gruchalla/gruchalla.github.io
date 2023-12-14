@@ -1,0 +1,9 @@
+@INPROCEEDINGS{10350255,
+  author={Lyons-Galante, Isaiah and Karimzadeh, Morteza and Molnar, Samantha and Johnson, Graham and Gruchalla, Kenny},
+  booktitle={2023 Workshop on Energy Data Visualization (EnergyVis)}, 
+  title={Alternatives to Contour Visualizations for Power Systems Data}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={11-15},
+  doi={10.1109/EnergyVis60781.2023.00009}}
