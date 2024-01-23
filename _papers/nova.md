@@ -4,7 +4,7 @@ title: "Savings in Action: Lessons Learned for a Vermont Community with Solar pl
 authors: I. Manogaran, A. Farthing, J. Maguire, K. Gruchalla
 journal: NREL Technical Report NREL/TP-7A40-84660
 order: 2024-01
-pubdate: TBD 2024
+pubdate: January 2024
 image: /images/nova.png
 image_text: NOVA Scorecard
 links:
