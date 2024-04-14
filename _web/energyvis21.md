@@ -7,7 +7,7 @@ pubdate: June 28, 2021
 location: Torino, Italy
 image: /images/energyvis.png
 image_text: EnergyVis 2021
-link: "https://energyvis.org"
+link: "https://energyvis.org/EV2021.html"
 links:
 type: 'event'
 ---
