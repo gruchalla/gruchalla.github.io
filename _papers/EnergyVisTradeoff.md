@@ -7,6 +7,7 @@ order: 2024-05
 pubdate: in press
 image: /images/tradeoff.png
 image_text: "Two visualizations of renewable site location and capacities for four different scenarios."
+links:
 - path: https://www.nrel.gov/docs/fy24osti/90485.pdf
   title: preprint
 
