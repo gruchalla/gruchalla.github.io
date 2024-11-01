@@ -10,7 +10,8 @@ image_text: "A simulated image of the situated visualization of photovoltaic mod
 links:
 - path: https://www.nrel.gov/docs/fy25osti/90491.pdf
   title: preprint
-
+- path: https://www.nrel.gov/docs/fy25osti/91700.pdf
+  title: presentation
 
 ---
 The rapid growth of the solar energy industry requires advanced educational tools to train the next generation of engineers and technicians. We present a novel system for situated visualization of photovoltaic (PV) module performance, leveraging a combination of PV simulation, sun-sky position, and head-mounted augmented reality (AR). Our system is guided by four principles of development: simplicity, adaptability, collaboration, and maintainability, realized in six components. Users interactively manipulate a physical module's orientation and shading referents with immediate feedback on the module's performance.
