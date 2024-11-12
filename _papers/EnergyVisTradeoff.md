@@ -4,10 +4,12 @@ title: "Opportunities and Challenges in the Visualization of Energy Scenarios fo
 authors: S. Molnar G. Johnson, K. Gruchalla, K. Potter
 journal: "Energy Visualization 2024"
 order: 2024-04
-pubdate: in press
+pubdate: November 2024
 image: /images/tradeoff.png
 image_text: "Two visualizations of renewable site location and capacities for four different scenarios."
 links:
+- path: https://ieeexplore.ieee.org/document/10747623
+  title: paper
 - path: https://www.nrel.gov/docs/fy24osti/90485.pdf
   title: preprint
 

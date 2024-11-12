@@ -4,10 +4,12 @@ title: "Situated Visualization of Photovoltaic Module Performance for Workforce 
 authors: N. Brunhart-Lupo, K. Gruchalla, L. Williams, S. Elias
 journal: "Energy Visualization 2024"
 order: 2024-05
-pubdate: in press
+pubdate: November 2024
 image: /images/flc_module.jpg
 image_text: "A simulated image of the situated visualization of photovoltaic module performance, mimicking the view of the augmented reality projection. In this figure, a simulation has been run; power flow across the cells are shown as arrows and pipes. Shaded cells are highlighted in yellow. As a portion of the module is in shadow, diodes have bypassed certain cells; these are marked by spheres. Note the optical tracking marker in the foreground, used to relay physical panel orientation to the rest of the system."
 links:
+- path: https://ieeexplore.ieee.org/document/10747633
+  title: paper
 - path: https://www.nrel.gov/docs/fy25osti/90491.pdf
   title: preprint
 - path: https://www.nrel.gov/docs/fy25osti/91700.pdf

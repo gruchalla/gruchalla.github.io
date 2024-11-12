@@ -4,11 +4,13 @@ title: "Architecture for Web-Based Visualization of Large-Scale Energy Domains"
 authors: G. Johnson, S. Molnar, N. Brunhart-Lupo, K. Gruchalla
 journal: "Energy Visualization 2024"
 order: 2024-03
-pubdate: in press
+pubdate: November 2024
 image: /images/hrld.jpg
 image_text: "Snapshot of the 100 megapixel high-resolution display with an interactive visualization in the browser. Two synthetic energy model topologies are shown: an electrical transmission system (blue lines) and a corresponding distribution system (orange
 points) in the San Francisco Bay area. These two models have a combined count of over 12 million features."
 links:
+- path: https://ieeexplore.ieee.org/document/10747628
+  title: paper
 - path: https://www.nrel.gov/docs/fy24osti/90479.pdf
   title: preprint
 
