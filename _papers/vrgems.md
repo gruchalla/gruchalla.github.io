@@ -10,6 +10,8 @@ image_text: VR Developer Gems Book Cover
 links:
 - path: "https://www.amazon.com/VR-Developer-Gems-William-Sherman/dp/1138030120"
   title: book
+- path: "pdf/VRDeveloperGems_NREL_Chapter.pdf"
+  title: preprint
 - path: "bib/vrgems.bib"
   title: bibtex
 ---
