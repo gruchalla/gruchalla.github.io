@@ -8,11 +8,11 @@ pubdate: January 2024
 image: /images/nova.png
 image_text: NOVA Scorecard
 links:
- - path: https://www.nrel.gov/docs/fy24osti/84660.pdf
+ - path: https://www.nlr.gov/docs/fy24osti/84660.pdf
    title: report 
  - path: bib/TP-7A40-84660.bib
    title: bibtex
- - path: https://reopt.nrel.gov/projects/case-study-nova.html
+ - path: https://reopt.nlr.gov/projects/case-study-nova.html
    title: project
 ---
 

@@ -10,7 +10,7 @@ image_text: "The figure visualizes the Kaua`i transmission system during an osci
 links:
 - path: https://ieeexplore.ieee.org/document/10350222
   title: paper
-- path: https://www.nrel.gov/docs/fy24osti/87205.pdf
+- path: https://www.nlr.gov/docs/fy24osti/87205.pdf
   title: preprint
 - path: https://youtu.be/US_Klx10oJw
   title: video

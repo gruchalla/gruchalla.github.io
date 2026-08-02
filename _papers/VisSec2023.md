@@ -10,7 +10,7 @@ image_text: "State of the Houston Metro area power system assess by CATV voltage
 voltage outliers, sized based on variation from 4-hour average voltage, and styled with a diverging colormap based on nominal voltage.
 Cluster of anomalies located in upper middle."
 links:
-- path: https://www.nrel.gov/docs/fy23osti/86869.pdf
+- path: https://www.nlr.gov/docs/fy23osti/86869.pdf
   title: preprint
 - path: https://youtu.be/AZhYwFMbbbk
   title: video

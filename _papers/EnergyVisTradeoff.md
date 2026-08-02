@@ -10,7 +10,7 @@ image_text: "Two visualizations of renewable site location and capacities for fo
 links:
 - path: https://ieeexplore.ieee.org/document/10747623
   title: paper
-- path: https://www.nrel.gov/docs/fy24osti/90485.pdf
+- path: https://www.nlr.gov/docs/fy24osti/90485.pdf
   title: preprint
 
 

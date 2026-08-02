@@ -1,6 +1,6 @@
 name,location,id,longitude,latitude,img1,img2
 Pu'u Poa Point,Kaui HI USA,HI3,-159.4954,22.2223,kaui50_2.jpg,kaui1000_1.jpg
-Pu'u Olai,Maui HI,HI1,-156.4492,20.6361,olai50_1.jpg,olai1000_1.jpg,
+Pu'u Olai,Maui HI,HI1,-156.4492,20.6361,olai50_1.jpg,olai1000_1.jpg
 Pacific City Beach,OR USA,OR1,-123.972,45.2155,pacificcity50_1.jpg,pacificcity1000_1.jpg
 Santa Monica,CA USA,CA1,-118.5017,34.0129,santamonica50_1.jpg,santamonica1000_1.jpg
 Moab, UT USA,UT1,-109.5498,38.5733,moab50_1.jpg,moab1000_1.jpg
@@ -17,3 +17,7 @@ Sandy Cay,B.V.I.,BV1,-64.7092,18.4363,,
 Fortescue Bay,Tasmania Australia,TA1,147.96,-43.13,,
 Cape Canaveral,FL USA,FL1,-80.6077,28.3922,,
 Del Coco Beach,Costa Rica,CR1,-85.7001,10.551,,
+Columbia River Boardman,OR USA,OR2,-119.692694,45.852307,boardman50_1.jpg,boardman1000.jpg
+Meyers Creek Beach,OR USA,OR3,-124.415333,42.311325,meyers50.jpg,meyers1000_2.jpg
+Umpqua Lighthouse,OR USA,OR4,-124.207266,43.665698,umpqua50.jpg,umpqua1000.jpg
+Crescent City,CA USA,CA2,-124.165232,41.74045,crescent50_1.jpg,crescent1000_1.jpg

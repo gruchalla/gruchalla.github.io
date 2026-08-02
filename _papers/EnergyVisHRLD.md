@@ -11,7 +11,7 @@ points) in the San Francisco Bay area. These two models have a combined count of
 links:
 - path: https://ieeexplore.ieee.org/document/10747628
   title: paper
-- path: https://www.nrel.gov/docs/fy24osti/90479.pdf
+- path: https://www.nlr.gov/docs/fy24osti/90479.pdf
   title: preprint
 
 ---

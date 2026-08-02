@@ -124,6 +124,34 @@ var markers = [
    "Id": "OR1",
    "Longitude": -123.972,
    "Latitude": 45.2155
- }
+ },
+ {
+  "Name": "Columbia River Boardman",
+  "Location": "OR, USA",
+  "Id": "OR2",
+  "Longitude": -119.692694,
+  "Latitude": 45.852307
+},
+{
+  "Name": "Meyers Creek Beach",
+  "Location": "OR, USA",
+  "Id": "OR3",
+  "Longitude": -124.415333,
+  "Latitude": 42.311325
+},
+{
+  "Name": "Umpqua Lighthouse",
+  "Location": "OR, USA",
+  "Id": "OR4",
+  "Longitude": -124.207266,
+  "Latitude": 43.665698
+},
+{
+  "Name": "Crescent City",
+  "Location": "CA, USA",
+  "Id": "CA2",
+  "Longitude": -124.165232,
+  "Latitude": 41.74045
+}
 ];
     

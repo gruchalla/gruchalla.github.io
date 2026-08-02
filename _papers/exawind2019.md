@@ -8,7 +8,7 @@ pubdate: 2019
 image: /images/exawind_TP-5000-72760.jpg
 image_text: Exawind
 links:
-- path: "https://www.nrel.gov/docs/fy19osti/72760.pdf"
+- path: "https://www.nlr.gov/docs/fy19osti/72760.pdf"
   title: report
 - path: "https://youtu.be/p7EMZxxvIc0"
   title: video

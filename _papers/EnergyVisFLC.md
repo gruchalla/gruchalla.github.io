@@ -10,9 +10,9 @@ image_text: "A simulated image of the situated visualization of photovoltaic mod
 links:
 - path: https://ieeexplore.ieee.org/document/10747633
   title: paper
-- path: https://www.nrel.gov/docs/fy25osti/90491.pdf
+- path: https://www.nlr.gov/docs/fy25osti/90491.pdf
   title: preprint
-- path: https://www.nrel.gov/docs/fy25osti/91700.pdf
+- path: https://www.nlr.gov/docs/fy25osti/91700.pdf
   title: presentation
 
 ---

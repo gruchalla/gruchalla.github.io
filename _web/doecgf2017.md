@@ -7,7 +7,7 @@ pubdate: May 1-4, 2017
 location: Golden, CO
 image: /images/patchett_DOECGF.jpg
 image_text: DOECGF 2017
-link: "https://www.nrel.gov/computational-science/doecgf-2017/"
+link: "https://www.nlr.gov/computational-science/doecgf-2017/"
 links:
 type: 'event'
 ---

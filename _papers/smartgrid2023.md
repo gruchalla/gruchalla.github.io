@@ -14,7 +14,7 @@ links:
   title: preprint
 - path: "bib/gruchalla-tsg-2023.bib"
   title: bibtex
-- path: https://data.nrel.gov/submissions/200
+- path: https://data.nlr.gov/submissions/200
   title: data
 - path: https://osf.io/tmv6s
   title: preregistration

@@ -10,9 +10,9 @@ image: /images/Pena_thumb.png
 image_text: Exawind
 link: "https://www.osti.gov/servlets/purl/1718906"
 links:
-- path: "https://www.nrel.gov/docs/fy20osti/76242.pdf"
+- path: "https://www.nlr.gov/docs/fy20osti/76242.pdf"
   title: report
-- path: "https://www.nrel.gov/news/program/2018/planning-a-city-virtually.html"
+- path: "https://www.nlr.gov/news/program/2018/planning-a-city-virtually.html"
   title: news
 
 ---

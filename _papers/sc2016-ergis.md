@@ -12,7 +12,7 @@ links:
    title: paper
  - path: "https://youtu.be/MnjScvNvPxs"
    title: video
- - path: "http://www.nrel.gov/grid/ergis.html"
+ - path: "http://www.nlr.gov/grid/ergis.html"
    title: website
  - path: "https://github.com/NREL/kaleidoscope"
    title: code

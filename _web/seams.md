@@ -6,7 +6,7 @@ order: 2021-2
 pubdate: 2021
 image: /images/seams_03-05-08-00.png
 image_text: Interconnections Seam Study Dashboard
-link: "https://www.nrel.gov/analysis/seams.html"
+link: "https://www.nlr.gov/analysis/seams.html"
 type: 'professional'
 
 ---

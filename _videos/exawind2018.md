@@ -9,7 +9,7 @@ image: /images/exawind_thumb.png
 image_text: Exawind
 link: "https://youtu.be/p7EMZxxvIc0"
 links:
-- path: "https://www.nrel.gov/docs/fy19osti/72760.pdf"
+- path: "https://www.nlr.gov/docs/fy19osti/72760.pdf"
   title: report
 - path: "https://github.com/exawind/nalu-wind"
   title: code
