@@ -1,0 +1,24 @@
+<div id="remote-markdown-content">Loading content...</div>
+
+<!-- Load Marked.js from CDN -->
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+<script>
+  // target URL 
+  const remoteUrl = 'https://raw.githubusercontent.com/gruchalla/StatKeeper/refs/heads/main/PrivacyPolicy.md';
+
+  // Fetch the remote md file
+  fetch(remoteUrl)
+    .then(response => {
+      if (!response.ok) throw new Error('Network response was not ok');
+      return response.text();
+    })
+    .then(markdown => {
+      // 3. Parse Markdown and inject into the DOM
+      document.getElementById('remote-markdown-content').innerHTML = marked.parse(markdown);
+    })
+    .catch(error => {
+      console.error('Error fetching remote markdown:', error);
+      document.getElementById('remote-markdown-content').innerHTML = 'Failed to load content.';
+    });
+</script>
