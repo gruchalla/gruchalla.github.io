@@ -4,7 +4,7 @@ title: "Beyond the Post Hoc User Study: Modeling Visual Decision-Making with Act
 authors: H. Goldwyn, G. Johnson, C. Ibarra, L. Padilla, K. Gruchalla
 journal: "IEEE VIS"
 order: 2026-02
-pubdate: Nov 2026
+pubdate: November 2026
 image: /images/active_inference_padilla_diagram.png
 image_text: "An illustration of the Dual-process decision making"
 links:
