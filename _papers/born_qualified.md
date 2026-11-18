@@ -3,7 +3,7 @@ layout: paper
 title: "Born-Qualified: An Autonomous Framework for Deploying Advanced Energy and Electronic Materials"
 authors: S.R. Spurgeon, M. Abolhasani, F. Baddour, R.B. Comes, V.P. Dravid, H. Egan, P. Emami, R.W. Epps, D.M. Febba, R. Gannon, E.A. Gaulding, A. Ghosh, K. Gruchalla, G. Guinan, T. Hitosugi, M. Holden, S.V. Kalinin, Y. Liang, J.S. Mangum, M.J. Olszta, N.H. Park, A. Palmstrom, M.A. Smeaton, B. Tellekamp, N.E. Thornburg, R.R. Unocic, D. Ushizima, R.K. Vasudevan, R. White, A. Young, and A. Zakutayev
 journal: arXiv
-order: 2026-01
+order: 2026-02
 pubdate: May 2026
 image: /images/born_qualified.png
 image_text: Comparison of sequential and born-qualified approaches, showing how a linear decision-making process fails to anticipate challenges in scale-up, while a multi-objective approach can more effectively produce feasible designs.

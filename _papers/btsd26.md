@@ -3,7 +3,7 @@ layout: paper
 title: In-Browser Particle Advection with a State-Space Surrogate
 authors: J.D. Laurence-Chasen, R. Sandhu, S. Sane, K. Gruchalla
 journal: "BTSD 2026, IEEE BigData 2026." 
-order: 2026-03 
+order: 2026-05 
 pubdate: December 2026
 image: /images/HERO_Flow2.png
 image_text: Interactive particle advection using a browser-based deep neural network.
