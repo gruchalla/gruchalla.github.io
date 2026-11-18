@@ -3,7 +3,7 @@ layout: paper
 title: "Beyond the Post Hoc User Study: Modeling Visual Decision-Making with Active Inference"
 authors: H. Goldwyn, G. Johnson, C. Ibarra, L. Padilla, K. Gruchalla
 journal: "IEEE VIS"
-order: 2026-03
+order: 2026-04
 pubdate: November 2026
 image: /images/active_inference_padilla_diagram.png
 image_text: "An illustration of the Dual-process decision making"
