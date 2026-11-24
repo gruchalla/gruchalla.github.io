@@ -82,7 +82,7 @@ image: images/gruchalla_cave_2025.png
 <br>
 
 <h2 id="video">Selected Video</h2>
-{% assign vitems = site.videos | sort: 'order' | reversed %}
+{% assign vitems = site.videos | sort: 'order' | reverse %}
 {% for video in vitems %}
   <div class="paper">
     <div class="thumb">
@@ -155,7 +155,7 @@ image: images/gruchalla_cave_2025.png
     topics.forEach(function (t) { params.append('topic', t); });
     if (topics.length > 1 && mode === 'all') params.set('match', 'all');
     var qs = params.toString();
-    history.replaceState(null, '', (qs ? '?' + qs : location.pathname) + '#pubs');
+    history.replaceState(null, '', location.pathname + (qs ? '?' + qs : '') + location.hash);
   }
 
   // Restore state from URL
