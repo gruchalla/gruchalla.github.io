@@ -14,6 +14,10 @@ links:
    title: bibtex
  - path: "http://www.vapor.ucar.edu/"
    title: code
+keywords:
+- Visualization
+- CFD Analysis
+- HPC
 ---
 In this paper we discuss recent developments in the capabilities of 
 VAPOR (open source, available at http://www.vapor.ucar.edu): a desktop application 

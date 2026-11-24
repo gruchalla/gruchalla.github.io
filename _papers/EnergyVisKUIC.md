@@ -16,7 +16,9 @@ links:
   title: video
 - path: bib/EnergyVis60781.2023.00007
   title: bibtex
-
+keywords:
+- Visualization
+- Power Systems Analysis
 ---
 In this work, we discuss the design of visualizations for understanding the complex oscillatory dynamics of an island power system with renewable generation sources after the loss of a large oil power plant.
 As more renewable generation sources are added to power systems, the oscillatory dynamics will change, which requires new visualization techniques to determine causes and strategies to avoid unwanted behaviors in the future.

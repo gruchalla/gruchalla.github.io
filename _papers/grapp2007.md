@@ -12,6 +12,9 @@ links:
    title: paper
  - path: "bib/gruchalla-grapp2007.bib"
    title: bibtex
+keywords: 
+- Visualization
+- Immersive Visualization
 ---
 Immersive virtual environments are becoming increasingly common, driving the need to develop new 
 software or adapt existing software to these environments. We discuss some of the issues and limitations of 

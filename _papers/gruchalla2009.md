@@ -14,6 +14,10 @@ links:
    title: bibtex
  - path: "https://www.vapor.ucar.edu"
    title: code
+keywords: 
+- Visualization
+- CFD Analysis
+- HPC
 ---
 One of the barriers to visualization-enabled scientiﬁc discovery is the difficulty 
 in clearly and quantitatively articulating the meaning of a visualization, particularly 

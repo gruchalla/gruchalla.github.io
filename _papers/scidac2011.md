@@ -12,5 +12,9 @@ links:
    title: paper
  - path: "http://www.youtube.com/watch?v=k37UdcIuABQ"
    title: video
+keywords:
+- Visualization
+- CFD Analysis
+- HPC
 ---
 As the US moves toward 20% wind power by 2030, computational modeling will play an increasingly important role in determining wind-plant siting, designing more efficient and reliable wind turbines, and understanding the interaction between large wind plants and regional weather. From a computing perspective, however, adequately resolving the relevant scales of wind-energy production is a petascale problem verging on exascale. In this paper we discuss the challenges associated with computational simulation of the multiscale wind-plant system, which includes turbine-scale turbulence, atmospheric-boundary-layer turbulence, and regional-weather variation. An overview of computational modeling approaches is presented, and our particular modeling strategy is described, which involves modiﬁcation and coupling of three open-source codes—FAST, OpenFOAM, and WRF, for structure aeroelasticity, local ﬂuid dynamics, and mesoscale ﬂuid dynamics, respectively.

@@ -27,73 +27,162 @@ image: images/gruchalla_cave_2025.png
 <br>
 <br>
 -->
+{% assign items  = site.papers | sort: 'order' | reverse %}
+
+{% assign all_keywords = items | map: 'keywords' | join: '|' | split: '|' | uniq | sort_natural %}
 
 <h2 id="pubs">Publications</h2>
-{% assign items = site.papers | sort: 'order' %}
-{% for paper in items reversed %}
-	<div class="paper">
-        <div class="thumb">
-         <img class="thumbnail" src={{paper.image}} alt={{paper.image_text}} height="133" width="240">
-        </div>
-        <div class="content">
-          <div class="title">  {{ paper.title }} </div>
-          <div class="bib"> {{ paper.authors }}. <cite>{{ paper.journal }},</cite> {{ paper.pubdate }}. </div>
-          {% if paper.award %} <div class="award"> *{{ paper.award }}* </div> {% endif %}
-          <div class="links">
-            {% for link in paper.links %}
-               <a href={{link.path}}>{{link.title}}</a>
-            {% endfor %}
-          </div>
-          <div class="abstract">
-             {{ paper.content }}
-          </div>
-	</div>
+<details class="filters" id="filters">
+  <summary>
+    <span>Filter publications</span>
+    <span id="filter-active"></span>
+    <span id="filter-count"></span>
+  </summary>
+  <br>
+  <div class="filter-row">
+    <span class="filter-label">Topics:</span>
+    <div class="chips" id="filter-chips">
+      {% for k in all_keywords %}{% assign kw = k | strip %}{% if kw != "" %}
+        <button type="button" class="chip" aria-pressed="false"
+                data-value="{{ kw | downcase | escape }}">
+          <span class="chip-label">{{ kw }}</span>
+          (<span class="chip-count"></span>)
+        </button>
+      {% endif %}{% endfor %}
+    </div>
+  </div>
+
+  <div class="filter-row">
+    <label><input type="radio" name="filter-mode" value="any" checked> Union</label>
+    <label><input type="radio" name="filter-mode" value="all"> Intersection</label>
+    <button type="button" id="filter-reset">Reset</button>
+    <span id="filter-count"></span>
+  </div>
+</details>
+
+{% for paper in items %}
+  <div class="paper pub" data-keywords="{{ paper.keywords | join: '|' | downcase | escape }}">
+    <div class="thumb">
+      <img class="thumbnail" src="{{ paper.image }}" alt="{{ paper.image_text }}" height="133" width="240">
+    </div>
+    <div class="content">
+      <div class="title">{{ paper.title }}</div>
+      <div class="bib">{{ paper.authors }}. <cite>{{ paper.journal }},</cite> {{ paper.pubdate }}.</div>
+      {% if paper.award %}<div class="award">*{{ paper.award }}*</div>{% endif %}
+      <div class="links">
+        {% for link in paper.links %}
+          <a href="{{ link.path }}">{{ link.title }}</a>
+        {% endfor %}
+      </div>
+      <div class="abstract">{{ paper.content }}</div>
+    </div>
+  </div>
 {% endfor %}
 <br>
 <br>
 
 <h2 id="video">Selected Video</h2>
-{% assign items = site.videos | sort: 'order' %}
-{% for video in items reversed %}
-	<div class="paper">
-        <div class="thumb">
-        <a href={{video.link}}><img class="thumbnail" src={{video.image}} alt={{video.image_text}} height="133" width="240"></a>
-        </div>
-        <div class="content">
-          <div class="title">  {{ video.title }} </div>
-          <div class="bib"> {{ video.authors }}. <cite>{{ video.journal }},</cite> {{ video.pubdate }}. </div>
-          {% if video.award %} <div class="award"> *{{ video.award }}* </div> {% endif %}
-          <div class="links">
-            {% for link in video.links %}
-               <a href={{link.path}}>{{link.title}}</a>
-            {% endfor %}
-          </div>
-          <div class="abstract">
-             {{ video.content }}
-          </div>
-	</div>
+{% assign vitems = site.videos | sort: 'order' | reversed %}
+{% for video in vitems %}
+  <div class="paper">
+    <div class="thumb">
+      <a href="{{ video.link }}"><img class="thumbnail" src="{{ video.image }}" alt="{{ video.image_text }}" height="133" width="240"></a>
+    </div>
+    <div class="content">
+      <div class="title">{{ video.title }}</div>
+      <div class="bib">{{ video.authors }}. <cite>{{ video.journal }},</cite> {{ video.pubdate }}.</div>
+      {% if video.award %}<div class="award">*{{ video.award }}*</div>{% endif %}
+      <div class="links">
+        {% for link in video.links %}
+          <a href="{{ link.path }}">{{ link.title }}</a>
+        {% endfor %}
+      </div>
+      <div class="abstract">{{ video.content }}</div>
+    </div>
+  </div>
 {% endfor %}
 <br>
 <br>
 
-<h2 id="press">Selected Press</h2>
-{% assign items = site.press | sort: 'order' %}
-{% for press in items reversed %}
-	<div class="paper">
-        <div class="thumb">
-        <a href={{press.link}}><img class="thumbnail" src={{press.image}} alt={{video.image_text}} height="133" width="240"></a>
-        </div>
-        <div class="content">
-          <div class="title">  {{ press.title }} </div>
-          <div class="bib"> {{ press.authors }}. <cite>{{ press.journal }},</cite> {{ video.pubdate }}. </div>
-          <div class="links">
-            {% for link in press.links %}
-               <a href={{press.path}}>{{press.title}}</a>
-            {% endfor %}
-          </div>
-          <div class="abstract">
-             {{ press.content }}
-          </div>
-	</div>
-{% endfor %}
-<hr width=100%>
+<hr width="100%">
+
+<script>
+(function () {
+  var chips = Array.prototype.slice.call(document.querySelectorAll('#filter-chips .chip'));
+  var count = document.getElementById('filter-count');
+  var modes = document.querySelectorAll('input[name="filter-mode"]');
+
+  // Only publications (.pub), not videos or press
+  var data = Array.prototype.map.call(document.querySelectorAll('.pub'), function (p) {
+    return { el: p, kws: p.dataset.keywords ? p.dataset.keywords.split('|') : [] };
+  });
+
+  // Static per-keyword totals
+  var tally = {};
+  data.forEach(function (d) {
+    d.kws.forEach(function (k) { tally[k] = (tally[k] || 0) + 1; });
+  });
+  chips.forEach(function (c) {
+    c.querySelector('.chip-count').textContent = tally[c.dataset.value] || 0;
+  });
+
+  function selectedTopics() {
+    return chips.filter(function (c) { return c.getAttribute('aria-pressed') === 'true'; })
+                .map(function (c) { return c.dataset.value; });
+  }
+  function getMode() {
+    return document.querySelector('input[name="filter-mode"]:checked').value;
+  }
+
+  function apply() {
+    var topics = selectedTopics();
+    var mode = getMode();
+    var shown = 0;
+
+    data.forEach(function (d) {
+      var ok = topics.length === 0 ||
+        (mode === 'all'
+          ? topics.every(function (t) { return d.kws.indexOf(t) !== -1; })
+          : topics.some (function (t) { return d.kws.indexOf(t) !== -1; }));
+      d.el.style.display = ok ? '' : 'none';
+      if (ok) shown++;
+    });
+
+    count.textContent = shown + ' of ' + data.length + ' publications';
+
+    // Mirror state into the URL so filtered views are linkable
+    var params = new URLSearchParams();
+    topics.forEach(function (t) { params.append('topic', t); });
+    if (topics.length > 1 && mode === 'all') params.set('match', 'all');
+    var qs = params.toString();
+    history.replaceState(null, '', (qs ? '?' + qs : location.pathname) + '#pubs');
+  }
+
+  // Restore state from URL
+  var params = new URLSearchParams(location.search);
+  var wanted = params.getAll('topic');
+  chips.forEach(function (c) {
+    c.setAttribute('aria-pressed', wanted.indexOf(c.dataset.value) !== -1 ? 'true' : 'false');
+  });
+  if (params.get('match') === 'all') {
+    document.querySelector('input[name="filter-mode"][value="all"]').checked = true;
+  }
+
+  // Events
+  chips.forEach(function (c) {
+    c.addEventListener('click', function () {
+      c.setAttribute('aria-pressed', c.getAttribute('aria-pressed') === 'true' ? 'false' : 'true');
+      apply();
+    });
+  });
+  Array.prototype.forEach.call(modes, function (m) { m.addEventListener('change', apply); });
+
+  document.getElementById('filter-reset').addEventListener('click', function () {
+    chips.forEach(function (c) { c.setAttribute('aria-pressed', 'false'); });
+    document.querySelector('input[name="filter-mode"][value="any"]').checked = true;
+    apply();
+  });
+
+  apply();
+})();
+</script>

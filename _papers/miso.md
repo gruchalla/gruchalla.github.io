@@ -12,5 +12,8 @@ links:
   title: paper
 - path: "bib/figueroa_PES2020.bib"
   title: bibtex
+keywords:
+- Visualization
+- Power Systems Analysis
 ---
 We describe the visualization approach for enhancing analyses of the ongoing Renewable Integration Impact (RIIA) Assessment by the Midcontinent Independent System Operator (MISO). It details the customization of state-of-the-art, open-source visualization code to complement existing power system visualization tools and data analytic processes used in MISO. This paper describes how this approach has provided additional insights for RIIA from multiple aspects with fine spatial-temporal granularity, including the comparison of different renewable integration scenarios, improved understanding of complex interactions, the effects of transmission upgrades, and the improved verification of MISO’s simulation results. We also made the updated visualization code package publicly available.

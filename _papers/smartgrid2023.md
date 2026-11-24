@@ -20,6 +20,10 @@ links:
   title: preregistration
 - path: https://osf.io/zn7ag
   title: preregistration
+keywords: 
+- Visualization
+- Power Systems Analysis
+- CogSci
 ---
 Effective visual analytics tools are needed now more than ever as emerging energy systems data and models are rapidly growing in scale and complexity. We examined the suitability of colored contour maps to visually represent bus values in two different power system models: a dense 24k-bus distribution system and a 240-bus transmission system. In a quantitative analysis, we found that contour maps misrepresent power systems data, changing the statistical dispersion of the bus values, including the loss of extreme values. In a controlled empirical study with thirty professional power system research engineers, we found that these distortions significantly impact excursion identification tasks. Additionally, the engineers were less confident in their assessments using contour-based visualizations than glyph-based visualizations.
 

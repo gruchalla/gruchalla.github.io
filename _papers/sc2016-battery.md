@@ -14,5 +14,8 @@ links:
    title: video
  - path: "bib/battery_sc16.bib"
    title: bibtex
+keywords:
+- Visualization
+- HPC
 ---
 Lithium-ion batteries are currently the state-of-the-art power sources for electric vehicles, and their safety behavior when subjected to abuse, such as a mechanical impact, is of critical concern. A coupled mechanical-electrical-thermal model for simulating the behavior of a lithium-ion battery under a mechanical crush has been developed. We present a series of production-quality visualizations to illustrate the complex mechanical and electrical interactions in this model.

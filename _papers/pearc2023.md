@@ -16,6 +16,10 @@ links:
   title: video
 - path: "bib/pearc23.bib"
   title: bibtex
+keywords: 
+- Visualization
+- Immersive Visualization
+- CFD Analysis
 ---
 We describe the benefits of immersive flow analysis for three large-scale computational science studies in the field of renewable energy. The studies encompass a range of scales, spanning from the large atmospheric scale of a wind farm to the human scale of an electric vehicle cabin down to the microscopic scale of battery material science. In these studies, users explored the flow patterns and dynamics through immersive particle advection. The integration of high-performance computing with immersive analysis provided a deeper understanding of these systems, helping develop more effective solutions for a sustainable energy future.
 

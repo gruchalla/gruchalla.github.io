@@ -12,6 +12,8 @@ links:
    title: preprint
  - path: ""
    title: bibtex
+keywords: 
+- Visualization
 ---
 Autonomous science is transforming how we discover materials and chemical systems for advanced energy technologies. However, many initially promising systems never reach deployment. This “valley of death” stems from optimization that prioritizes laboratory metrics over industrial viability. We propose a new strategy: “born-qualified” autonomous development, which embeds manufacturability, cost, and durability constraints from the outset. This approach is enabled by four pillars, including the development of multi-objective metrics, causal models, a modular infrastructure, and embedding
 manufacturing in the discovery loop. Realizing this vision will require sustained, community-wide commitment, but the potential return on that investment is commensurate with the scale of the challenge.

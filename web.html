@@ -66,4 +66,28 @@ image: images/gruchalla_cave_2025.png
           </div>
 	</div>
 {% endfor %}
+<br>
+<br>
+<br>
+
+<h2 id="press">Selected Press</h2>
+{% assign pitems = site.press | sort: 'order' | reversed %}
+{% for press in pitems %}
+  <div class="paper">
+    <div class="thumb">
+      <a href="{{ press.link }}"><img class="thumbnail" src="{{ press.image }}" alt="{{ press.image_text }}" height="133" width="240"></a>
+    </div>
+    <div class="content">
+      <div class="title">{{ press.title }}</div>
+      <div class="bib">{{ press.authors }}. <cite>{{ press.journal }},</cite> {{ press.pubdate }}.</div>
+      <div class="links">
+        {% for link in press.links %}
+          <a href="{{ link.path }}">{{ link.title }}</a>
+        {% endfor %}
+      </div>
+      <div class="abstract">{{ press.content }}</div>
+    </div>
+  </div>
+{% endfor %}
+<br>
 <hr width=100%>

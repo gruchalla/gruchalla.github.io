@@ -14,6 +14,9 @@ links:
    title: bibtex
  - path: "https://youtu.be/NuX8oA7Rul0"
    title: video 
+keywords: 
+- Visualization
+- Immersive Visualization
 ---
 The benefits of immersive visualization are primarily anecdotal; there 
 have been few controlled users studies that have attempted to quantify the added 
