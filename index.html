@@ -155,7 +155,7 @@ image: images/gruchalla_cave_2025.png
     topics.forEach(function (t) { params.append('topic', t); });
     if (topics.length > 1 && mode === 'all') params.set('match', 'all');
     var qs = params.toString();
-    history.replaceState(null, '', location.pathname + (qs ? '?' + qs : '') + location.hash);
+    history.replaceState(null, '', location.pathname + (qs ? '?' + qs : ''));
   }
 
   // Restore state from URL
