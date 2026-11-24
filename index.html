@@ -28,7 +28,6 @@ image: images/gruchalla_cave_2025.png
 <br>
 -->
 {% assign items  = site.papers | sort: 'order' | reverse %}
-
 {% assign all_keywords = items | map: 'keywords' | join: '|' | split: '|' | uniq | sort_natural %}
 
 <h2 id="pubs">Publications</h2>
@@ -125,6 +124,13 @@ image: images/gruchalla_cave_2025.png
   chips.forEach(function (c) {
     c.querySelector('.chip-count').textContent = tally[c.dataset.value] || 0;
   });
+  // Sort chips by count (descending), ties broken alphabetically
+  var chipBox = document.getElementById('filter-chips');
+  chips.sort(function (a, b) {
+    var diff = (tally[b.dataset.value] || 0) - (tally[a.dataset.value] || 0);
+    return diff || a.dataset.value.localeCompare(b.dataset.value);
+  });
+  chips.forEach(function (c) { chipBox.appendChild(c); });
 
   function selectedTopics() {
     return chips.filter(function (c) { return c.getAttribute('aria-pressed') === 'true'; })
