@@ -21,6 +21,7 @@ links:
 keywords:
 - Visualization
 - Power Systems Analysis
+- HPC
 ---
 
 The Eastern Renewable Generation Integration Study (ERGIS), explores the operational impacts of the widespread adoption of wind and solar photovoltaic (PV) resources in the U.S. Eastern Interconnection and Que ́bec Interconnection (collectively, EI). In order to understand some of the economic and reliability challenges of managing hundreds of gigawatts of wind and PV generation, we developed state of the art tools, data, and models for simulating power system operations using hourly unit commitment and 5-minute economic dispatch over an entire year. Using NRELs high performance computing capabilities and new methodologies to model operations, we found that the EI could balance the variability and uncertainty of high penetrations of wind and PV at a 5-minute level under a variety of conditions. A large-scale display and a combination of multiple coordinated views and small multiples were used to visually analyze the four large highly multivariate scenarios with high spatial and temporal resolutions.
